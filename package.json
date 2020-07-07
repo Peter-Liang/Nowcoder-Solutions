@@ -1,0 +1,41 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "description": "Peter Liang's LeetCode practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "dev": "npx jest --watch",
+    "start": "DEBUG=index node --experimental-modules index.js",
+    "create-test": "npx babel-node ./script/create-test.js"
+  },
+  "repository": "git+https://github.com/Peter-Liang/LeetCode-Solutions.git",
+  "keywords": [
+    "LeetCode",
+    "solutions",
+    "practices"
+  ],
+  "author": "Peter Liang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Peter-Liang/LeetCode-Solutions/issues"
+  },
+  "homepage": "https://github.com/Peter-Liang/LeetCode-Solutions#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^25.1.0",
+    "debug": "^4.1.1",
+    "eslint": "^6.0.1",
+    "fs-extra": "^8.1.0",
+    "jest": "^24.8.0",
+    "jest-babel": "^1.0.1",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@babel/node": "^7.5.0",
+    "@types/jest": "^24.0.15"
+  },
+  "type": "commonjs"
+}
