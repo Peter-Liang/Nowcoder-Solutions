@@ -5,3 +5,4 @@ report.*.json
 .idea/
 java/out/
 .DS_Store
+.vscode/
